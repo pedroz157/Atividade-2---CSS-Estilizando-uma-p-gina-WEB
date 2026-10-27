@@ -1,0 +1,183 @@
+   body {
+    background-color: #0f0c1b;
+    color: #f3e8ff;
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Fonte dos Títulos */
+  h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    color: #c084fc;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+  }
+  
+  h2 {
+    color: #a855f7;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    color: #e9d5ff;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  p {
+    margin-top: 0;
+    font-size: 0.95rem;
+    color: #e2e8f0;
+  }
+  
+  #cabecalho-principal {
+    background-color: #181124;
+    padding: 30px 20px 20px 20px;
+    margin-bottom: 30px;
+    border-bottom: 3px dotted #a855f7;
+  }
+  
+  .conteudo-principal {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .secao-obras {
+    background-color: #181124;
+    padding: 28px;
+    margin-bottom: 25px;
+    border: 2px dotted #a855f7;
+    border-radius: 12px;
+  }
+  
+  /* Navegação e Botões */
+  .menu-navegacao {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .link-nav, .link-externo {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #3b0764;
+    padding: 10px 22px;
+    display: inline-block;
+    border: 2px dotted #c084fc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .link-nav:hover, .link-externo:hover {
+    background-color: #a855f7;
+    color: #0f0c1b;
+  }
+  
+  /* Imagem (Biblioteca) */
+  .container-imagem-topo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .imagem-topo {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border: 2px dotted #c084fc;
+    border-radius: 10px;
+  }
+  
+  /* Layout das Obras em Cards */
+  .grid-obras {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .card-obra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #231836;
+    padding: 16px;
+    border: 2px dotted #a855f7;
+    border-radius: 10px;
+    gap: 20px;
+  }
+  
+  .info-obra {
+    flex: 1;
+  }
+  
+  .imagem-destaque {
+    width: 130px;
+    height: 185px;
+    object-fit: cover;
+    border: 2px dotted #c084fc;
+    border-radius: 8px;
+    background-color: #0f0c1b;
+  }
+  
+  .texto-apresentacao {
+    font-size: 1.05rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .subtitulo-lista {
+    color: #d8b4fe;
+    margin-bottom: 15px;
+  }
+  
+  .lista-proximos {
+    list-style-type: decimal;
+    padding-left: 24px;
+  }
+  
+  .lista-proximos li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    color: #f3e8ff;
+  }
+  
+  .p-link-externo {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .texto-inf {
+    color: #a78bfa;
+    margin: 0;
+  }
+  
+  /* Rodapé */
+  .rodape-site {
+    text-align: center;
+    padding: 20px;
+    background-color: #181124;
+    margin-top: 40px;
+    border-top: 3px dotted #a855f7;
+    color: #c084fc;
+    font-size: 0.95rem;
+  }
+  
+  @media (max-width: 600px) {
+    .card-obra {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
